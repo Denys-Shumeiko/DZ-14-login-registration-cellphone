@@ -1,0 +1,212 @@
+*,html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+
+/* HOME */
+}
+.wrap {
+    width: 700px;
+    height: 500px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title {
+    text-align: center;
+    color: red;
+}
+.login {
+    position: absolute;
+    margin: 5%;
+    top: 25%;
+    left: 22%;
+}
+.text {
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    top: 5px;
+    color: white;
+}
+.pole {
+    position: absolute;
+    top: 2px;
+    font-size: 18px;
+    outline: none;
+}
+.password {
+    position: absolute;
+    margin: 5%;
+    top: 42%;
+    left: 119px;
+}
+.pass {
+    left: 118px;
+}
+.checkbox {
+    position: absolute;
+    color: red;
+    top: 60%;
+    left: 43%;
+}
+
+.menu li{
+    float: left;
+}
+.menu li a {
+    display: block;
+    padding: 5px;
+    background: transparent;
+    text-decoration: none;
+}
+.registr {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;   
+}
+.button{
+    width: 200px;
+    height: 70px;
+    border-radius: 80px;
+    border: none;
+    box-shadow: 3px 3px 2px #000000, -3px -2px 2px #ffffff;
+}
+.button:active {
+    box-shadow: inset 3px 3px 2px white, -3px -2px 2px black;
+}
+.log {
+    position: absolute;
+    bottom: 41px;
+    left: 70px;
+}
+/* REGISTRATION  */
+.wrap2{
+    position: absolute;
+    background: rgba(255, 0, 0, 0.404);
+    width: 60%;
+    height: 100%;
+    margin-left: 100px;
+}
+.zagolovok {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    height: 20%;
+    margin-top: 5%;
+}
+.text1{
+    position: absolute;
+    left: 10%; 
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.text2 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    font-size: 32px;
+    color: white;
+}
+.line {
+    position: absolute;
+    width: 90%;
+    height: 3%;
+    background: red;
+    top: 85%;
+    left: 10%;
+}
+.clear {
+    clear: both;
+}
+/* Imya  */
+.conteiner {
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+    top: 25%;
+    left: 10%;
+}
+.imya {
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    top: 5%;
+    color: white;
+}
+.polevvoda {
+    position: absolute;
+    top: 2px;
+    font-size: 18px;
+    outline: none;
+    
+}
+/* Familiya  */
+.fam {
+    position: absolute;
+    top: 35%;
+}
+.familiya {
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    top: 10%;
+    color: white;
+}
+/* El. pochta  */
+.email {
+    position: absolute;
+    top: 45%;
+}
+.mail {
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    top: 10%;
+    color: white;
+}
+.submit {
+    position: absolute;
+    right: 62%;
+    top: 1px;
+    width: 80px;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 2px #000000, -3px -2px 2px #ffffff;
+    border: none;
+}
+.submit:active {
+    box-shadow: inset 3px 3px 2px white, -3px -2px 2px black;
+}
+/* Parol */
+.parol {
+    position: absolute;
+    top: 55%;
+}
+.parol-text{
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    top: 10%;
+    color: white;
+}
+/* Parol-repeat */
+.parol-repeat {
+    position: absolute;
+    top: 65%;
+}
+.trip {
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+}

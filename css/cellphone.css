@@ -1,0 +1,93 @@
+*,html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(211, 14, 106);
+}
+.block {
+    width: 350px;
+    /* height: 400px; */
+    background: rgba(255, 255, 0, 0.253);
+    border: 2px solid red;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+.poisk {
+    position: relative;
+}
+.poisk-text {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5%;
+    color: red;
+}
+.poisk input{
+    width: 300px;
+    height: 20px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid red;
+    margin-left: 21px;
+    text-align: center;
+    font-size: 14px;
+}
+.tip {
+    margin-left: 20px;
+    
+}
+.type {
+    /* display: none; */
+}
+.tip-label {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.box {
+    display: none;
+    margin-left: 25px;
+    color: white;
+}
+.type:checked ~ .box {
+    display: block;
+}
+.tip:checked ~ .box {
+    display: block;
+}
+.priceR {
+    float: right;
+}
+.priceL {
+    float: left;
+}
+.range {
+    margin-left: 50px;
+    width: 50%;
+}
+.radio {
+    margin-top: 10px;
+}
+.point-input {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    position: relative;
+}
+.point-check span{
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 28px;
+    color: white;
+}
